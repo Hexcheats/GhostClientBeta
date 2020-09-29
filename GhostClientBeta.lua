@@ -172,7 +172,7 @@ local LATESTVERSION = http.Get("https://raw.githubusercontent.com/Hexcheats/Ghos
 local function Update() 
     if CURRENTVERSION ~= LATESTVERSION then
         currentScript = file.Open(GetScriptName(), "w")
-        currentScript:Write(http.Get("https://raw.githubusercontent.com/Hexcheats/Ghostclient/master/GhostClient%20V2.lua"))
+        currentScript:Write(http.Get("https://raw.githubusercontent.com/Hexcheats/GhostClientBeta/master/GhostClientBeta.lua"))
         currentScript:Close()
         LoadScript(GetScriptName())
     end
