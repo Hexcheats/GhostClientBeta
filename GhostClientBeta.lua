@@ -168,7 +168,7 @@ local credit = gui.Text(info, "Ghost Client Is a client Coded By FGLX and dodo w
 
 --Update
 local CURRENTVERSION = "2.0"
-local LATESTVERSION = http.Get("https://raw.githubusercontent.com/Hexcheats/Ghostclient/master/version.txt")
+local LATESTVERSION = http.Get("https://raw.githubusercontent.com/Hexcheats/GhostClientBeta/master/Version.txt")
 local function Update() 
     if CURRENTVERSION ~= LATESTVERSION then
         currentScript = file.Open(GetScriptName(), "w")
@@ -216,7 +216,7 @@ local Updatebox = gui.Groupbox(ghost, "Update", 170, 5, 410, 1000)
 local CURRENTVERSION = gui.Text(Updatebox, "Current version: v" .. CURRENTVERSION)
 local LATESTVERSION = gui.Text(Updatebox, "Latest version: v" .. LATESTVERSION)
 local UPDATE = gui.Button(Updatebox, "Update", Update)
-local CHANGELOG_TEXT = gui.Text(Updatebox, http.Get("https://raw.githubusercontent.com/Hexcheats/Ghostclient/master/changelog.txt"))
+local CHANGELOG_TEXT = gui.Text(Updatebox, http.Get("https://raw.githubusercontent.com/Hexcheats/GhostClientBeta/master/Changelog.txt"))
 
 
 
