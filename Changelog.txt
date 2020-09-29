@@ -1,0 +1,5 @@
+9-29-2020
+--Fixed Most Issues
+--Fixed Indicators
+--Added Better Anit-Aim
+--Added Better FakeLag and SlowWalk
