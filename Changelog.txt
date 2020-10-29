@@ -1,5 +1,9 @@
-9-29-2020
---Fixed Most Issues
---Fixed Indicators
---Added Better Anit-Aim
---Added Better FakeLag and SlowWalk
+10-29-2020
+Update logs:
+-- Double switch is gone
+-- Changed aa switch speed to 2ticks
+-- Fixed right desync switch
+-- Desync on shot has been extended from -180 to 180
+-- Added LBY fucker
+-- Added faster doubletap to ragebot
+-- Added LBY indicator
