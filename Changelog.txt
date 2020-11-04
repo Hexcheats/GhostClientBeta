@@ -1,9 +1,7 @@
-10-29-2020
+11-4-2020
 Update logs:
--- Double switch is gone
--- Changed aa switch speed to 2ticks
--- Fixed right desync switch
--- Desync on shot has been extended from -180 to 180
--- Added LBY fucker
--- Added faster doubletap to ragebot
--- Added LBY indicator
+--Fixed anti-aim to latest update
+--Removed FD Fake lag indicators
+--Fixed slow walk and LBY indicators
+--Fast DT fixed to latest update
+--Added Leg animation fuck up
